@@ -1,0 +1,29 @@
+#notification{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid grey;
+}
+#notification>div{
+    align-items: center;
+    display: flex;
+}
+#notification>div>div p{
+    margin: 0px;
+}
+#tracking_container{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* border: 1px solid black; */
+}
+#trac_img_div{
+    /* border: 1px solid black; */
+    width: 60%;
+}
+#trac_text_div{
+    /* border: 1px solid black; */
+    width: 35%;
+}
