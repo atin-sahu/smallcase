@@ -29,11 +29,11 @@ function navbar(){
         </div>
     </div>
 </div>
-<hr>`
+<hr style="margin-bottom: 0px">`
 }
 
 function footer (){
-    return `<div id="footer" style="background-color: rgb(247,248,247);">
+    return `<div id="footer" class="pb-4" style="background-color: rgb(247,248,247);">
     <div class="container">
         <div class="row pt-4">
             <div class="col-12">
