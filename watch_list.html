@@ -47,16 +47,22 @@
             </div>
         </div>
     </div>
-    <hr>
+    <hr style="margin: 0px;">
+    <div id="footer_div"></div>
     
 </body>
 </html>
 
 <script type="module">
 
-    import navbar from "./components/navbar.js";
-    let navbar_div = document.getElementById("navbar_div");
-    navbar_div.innerHTML = navbar();
+import {navbar,footer} from "./components/navbar.js";
+
+let navbar_div = document.getElementById("navbar_div");
+let footer_div = document.getElementById("footer_div");
+
+navbar_div.innerHTML = navbar();
+footer_div.innerHTML = footer();
+
    
 
 

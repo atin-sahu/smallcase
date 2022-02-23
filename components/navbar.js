@@ -35,14 +35,14 @@ function navbar(){
 function footer (){
     return `<div id="footer" style="background-color: rgb(247,248,247);">
     <div class="container">
-        <div class="row mt-3">
+        <div class="row pt-4">
             <div class="col-12">
                 <i class="fa-solid fa-house"></i>
                 <i class="fa-solid fa-greater-than"></i>
                 <span>Watchlist</span>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
+        <div class="row mt-4 mb-5">
             <div class="col-5">
                 <img class="mb-3" src="https://www.smallcase.com/static/svgs/smallcase-logo-with-text.svg" alt="2">
                 <p>smallcase Technologies builds platforms & investment products to invest better in Indian equities. A smallcase is a basket of stocks/ETFs weighted intelligently to reflect an idea</p>
