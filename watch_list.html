@@ -12,8 +12,8 @@
     <title>watchlist</title>
 </head>
 <body>
-    <div id="navbar_div"></div>
-    <div class="container">
+    <div id="navbar_div" class="fixed-top bg-white mb-5" style="z-index: 5;"></div>
+    <div class="container pt-3 mt-5">
         <h3>Your Watchlist</h3>
         <p>Your watchlisted smallcases will appear here</p>
         <div id="notification">
@@ -55,15 +55,12 @@
 
 <script type="module">
 
-import {navbar,footer} from "./components/navbar.js";
+    import {navbar,footer} from "./components/navbar.js";
 
-let navbar_div = document.getElementById("navbar_div");
-let footer_div = document.getElementById("footer_div");
+    let navbar_div = document.getElementById("navbar_div");
+    let footer_div = document.getElementById("footer_div");
 
-navbar_div.innerHTML = navbar();
-footer_div.innerHTML = footer();
-
-   
-
+    navbar_div.innerHTML = navbar();
+    footer_div.innerHTML = footer();
 
 </script>
