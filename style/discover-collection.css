@@ -1,3 +1,6 @@
+#main{
+    margin-top: 15vh;
+}
 #div1{
     display: grid;
     justify-content: space-between;
