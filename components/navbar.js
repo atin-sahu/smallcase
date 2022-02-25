@@ -14,10 +14,10 @@ function navbar(){
           <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Discover</a>
+                  <a class="nav-link" aria-current="page" href="discover-collection.html">Discover</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Watchlist</a>
+                  <a class="nav-link" href="watch_list.html">Watchlist</a>
                 </li>
               </ul>
           </div>
@@ -82,8 +82,8 @@ function footer (){
                 <div class="row">
                     <div class="col-4">
                         <p class="fw-bolder">Company</p>
-                        <p class="m-0">About</p>
-                        <p class="m-0">For Businesses</p>
+                        <a href="about.html" class="text-dark text-decoration-none"><p class="m-0">About</p></a>
+                        <a href="about.html" class="text-dark text-decoration-none"><p class="m-0">For Businesses</p></a>
                         <p class="m-0">Blog</p>
                         <p class="m-0">Press</p>
                         <p class="m-0">Careers</p>
@@ -192,20 +192,20 @@ function popup(){
                                 <div class="col-8">
                                     <div class="row">
                                         
-                                        <div class="col-4 pt-3 pb-3 text-center">
-                                            <a class="text-decoration-none" href="paisa.html">
+                                        <div class="col-4 pt-3  text-center">
+                                            <a class="text-decoration-none" href="hdfc.html">
                                                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMUGPxy0hLHD9NR5o-5QCjyjLe6Lbs7b3QcOI_GXnGJFeWiK1a" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">HDFC Sec</p>
                                             </a>
                                         </div>
                         
-                                        <div class="col-4 pt-3 pb-3 text-center">
+                                        <div class="col-3 pt-3  text-center">
                                             <a href="paisa.html" class="text-decoration-none">
                                                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgWv0uEs8L2hggpvKDKwh1NOd3iuT6XtTuOSh_maRNcp3KRful" style="width: 30%; height: 20px;" alt="">
                                             <p class=" mt-3 pop_text">5paisa</p>
                                             </a>
                                         </div>
-                                        <div class="col-4 pt-3 pb-3 text-center">
+                                        <div class="col-5 pt-3  text-center">
                                             <a href="paisa.html" class="text-decoration-none">
                                                 <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUEBcrSrrUfWvbG3ta2LiL3zf4_q3kG6VujDdJrojaVoO0ohgY" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Angel One</p>
@@ -213,40 +213,40 @@ function popup(){
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-4 pt-3 pb-3 text-center">
+                                        <div class="col-4 pt-3  text-center">
                                             <a href="paisa.html" class="text-decoration-none">
                                                 <img src="https://alphafirms.in/wp-content/uploads/2020/11/Groww_logo.png" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Groww</p>
                                             </a>                                           
                                         </div>
-                                        <div class="col-4 pt-3 pb-3 text-center">
-                                            <a href="paisa.html" class="text-decoration-none">
+                                        <div class="col-4 pt-3  text-center">
+                                            <a href="hdfc.html" class="text-decoration-none">
                                                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgWv0uEs8L2hggpvKDKwh1NOd3iuT6XtTuOSh_maRNcp3KRful" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">ICICIdirect</p>
                                             </a>
                                         </div>
-                                        <div class="col-4 pt-3 pb-3 text-center">
-                                            <a href="paisa.html" class="text-decoration-none">
+                                        <div class="col-4 pt-3  text-center">
+                                            <a href="hdfc.html" class="text-decoration-none">
                                                 <img src="https://assets.smallcase.com/smallcase/assets/brokerLogo/small/kotak.svg" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Kotak Sec</p>
                                             </a>                                          
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-4 pt-3 pb-3 text-center">
+                                        <div class="col-4 pt-3  text-center">
                                             <a href="paisa.html" class="text-decoration-none">
                                                 <img src="https://assets.smallcase.com/smallcase/assets/brokerLogo/small/upstox.svg" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Upstox</p>
                                             </a>                                          
                                         </div>
-                                        <div class="col-4 pt-3 pb-3 text-center">
-                                            <a href="paisa.html" class="text-decoration-none">
+                                        <div class="col-4 pt-3  text-center">
+                                            <a href="zerodha.html" class="text-decoration-none">
                                                 <img src="https://assets.smallcase.com/smallcase/assets/brokerLogo/small/kite.svg" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Zerodha</p>
                                             </a>                                          
                                         </div>
-                                        <div class="col-4 pt-3 pb-3 text-center">
-                                            <a href="paisa.html" class="text-decoration-none">
+                                        <div class="col-4 pt-3  text-center">
+                                            <a href="zerodha.html" class="text-decoration-none">
                                                 <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgWv0uEs8L2hggpvKDKwh1NOd3iuT6XtTuOSh_maRNcp3KRful" style="width: 30%; height: 20px;" alt="">
                                                 <p class=" mt-3 pop_text">Zerodha</p>
                                             </a>                                          

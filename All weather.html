@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/636b69ddcd.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="/style/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>all weather</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/636b69ddcd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/style/index.css">
 
 </head>
+
 <body>
-    <div id="all_weather">
-        <img  id="weather_img" src="https://assets.smallcase.com/images/smallcases/160/SCAW_0001.png" alt="ii">
-        <div class="weather_left">
-            <h2>All Weather Investing</h2>
-        <p>One investment for all market conditions. Works for everyone 
-            </p>
-        </div>
-    
-        <div>
-            <p class="cacr">4Y CACR</p>
-            <p class="p2">12.38%  <BUTton><i class="icon-specials mr8 SmallcaseProfile__specials-icon__283Jo text-20"></i> Low Volatility </BUTton></p>
-        </div>
+  <div id="navbar_div"></div>
+  <div id="popup_div"></div>
+  <div id="all_weather">
+    <img id="weather_img" src="https://assets.smallcase.com/images/smallcases/160/SCAW_0001.png" alt="ii">
+    <div class="weather_left">
+      <h2>All Weather Investing</h2>
+      <p>One investment for all market conditions. Works for everyone
+      </p>
     </div>
-    <div id="Trending">
-        <div class="left">
-        <div class="tre_icon">
-            <p class="para_tre"><i class="fa-solid fa-star"></i>Trending</p>
-          <p>  One investment for all market conditions</p>
-       
-        </div>
-        <button class="three" onclick="overveiw()"> Overveiw</button>
-        <button class="three" onclick="etf()">ETFs & Weights</button>
-        <button class="three" onclick="news()">News </button>
-        <hr>
+
+    <div>
+      <p class="cacr">4Y CACR</p>
+      <p class="p2">12.38% <BUTton><i class="icon-specials mr8 SmallcaseProfile__specials-icon__283Jo text-20"></i> Low
+          Volatility </BUTton></p>
+    </div>
+  </div>
+  <div id="Trending">
+    <div class="left">
+      <div class="tre_icon">
+        <p class="para_tre"><i class="fa-solid fa-star"></i>Trending</p>
+        <p> One investment for all market conditions</p>
+
+      </div>
+      <button class="three" onclick="overveiw()"> Overveiw</button>
+      <button class="three" onclick="etf()">ETFs & Weights</button>
+      <button class="three" onclick="news()">News </button>
+      <hr>
       <div id="overveiw">
         <div id="small">
-           
-            <div class="small_left">
+
+          <div class="small_left">
             <h3>Why should you invest in this smallcase?</h3>
-            All Weather Investing is a popular strategy that ensures your investments do well in good as well as bad times. This is a long-term investment strategy that you can use to build wealth over the years to come.
-          <ul><li>This smallcase invests in 3 asset classes--equity, debt and gold</li><br>
-        <li>The portfolio is rebalanced periodically to generate relatively higher returns by assuming the least possible risks</li></ul>
-       <p>This smallcase is ideal for all types of market conditions. It will ensure that neither will your investment ship sink, nor will the investment flight soar to scary heights. What you will get here is a steady ride to help you meet your long-term investment goals.</p>
-    </div>
-    <hr style="height:200px;margin-top: 50px;">
-            <div class="small_right">
-                <p>Blog post</p>
-           
-               Read More about All Weather Investing
-                <p>Methodology</p>
-              Know how this smallcase was created   
-              <p>Factsheet</p>    
-              Download key points about this smallcase
-              <p class="pp">Created by Windmill Capital</p>
-               </div>
+            All Weather Investing is a popular strategy that ensures your investments do well in good as well as bad
+            times. This is a long-term investment strategy that you can use to build wealth over the years to come.
+            <ul>
+              <li>This smallcase invests in 3 asset classes--equity, debt and gold</li><br>
+              <li>The portfolio is rebalanced periodically to generate relatively higher returns by assuming the least
+                possible risks</li>
+            </ul>
+            <p>This smallcase is ideal for all types of market conditions. It will ensure that neither will your
+              investment ship sink, nor will the investment flight soar to scary heights. What you will get here is a
+              steady ride to help you meet your long-term investment goals.</p>
+          </div>
+          <hr style="height:200px;margin-top: 50px;">
+          <div class="small_right">
+            <p>Blog post</p>
+
+            Read More about All Weather Investing
+            <p>Methodology</p>
+            Know how this smallcase was created
+            <p>Factsheet</p>
+            Download key points about this smallcase
+            <p class="pp">Created by Windmill Capital</p>
+          </div>
         </div>
         <img class="img" src="https://www.linkpicture.com/q/Screenshot-9_12.png" alt="map">
-<div id="latest"><h3>Latest News</h3>
-<h4>See all News ></h4></div>
+        <div id="latest">
+          <h3>Latest News</h3>
+          <h4>See all News ></h4>
+        </div>
         <div class="three_div">
-          <div class="lat" >
+          <div class="lat">
             <p>4h from now on Business Today</p>
-          <h4>Is it a good time to invest in gold?</h4>
-          <p>Change since news <span style="color: red;">0.13%</span></p>
+            <h4>Is it a good time to invest in gold?</h4>
+            <p>Change since news <span style="color: red;">0.13%</span></p>
           </div>
           <div class="lat">
             <p>1h ago on The Hindu Businessline</p>
@@ -77,127 +94,188 @@
             <p>Change since news<span style="color: red;">0.13%</span></p>
           </div>
         </div>
-  
-    <h3 style="margin-left: -30px;">About the Manager</h3>
+
+        <h3 style="margin-left: -30px;">About the Manager</h3>
         <div class="windmill">
-        <div><h4>Windmill Capital</h4>
-        <h5>Manages 52 smallcases</h5>
-      <p>We’re SEBI registered research analyst creating Thematic & Quantamental model portfolios since 2016. Data analysis is the heart and soul behind our portfolio construction & with 50+…</p>
-    <button>Fundamentals</button>
-  <button>Sector Tracker</button> <button>+13 more strategies</button></div>
-       
-        <img src="https://assets.smallcase.com/images/publishers/smallcaseHQ/logo.png" alt="small">
-      </div>
+          <div>
+            <h4>Windmill Capital</h4>
+            <h5>Manages 52 smallcases</h5>
+            <p>We’re SEBI registered research analyst creating Thematic & Quantamental model portfolios since 2016. Data
+              analysis is the heart and soul behind our portfolio construction & with 50+…</p>
+            <button>Fundamentals</button>
+            <button>Sector Tracker</button> <button>+13 more strategies</button>
+          </div>
+
+          <img src="https://assets.smallcase.com/images/publishers/smallcaseHQ/logo.png" alt="small">
+        </div>
       </div>
       <div class="etf">
         <i class="fa-solid fa-lock"></i>
         <p>Login to see constituent<br>
-        and weight for this<br>
-      smallcase</p>
-      <button>Continue With Broker</button>
+          and weight for this<br>
+          smallcase</p>
+        <button>Continue With Broker</button>
       </div>
-         <div id="news">
-       <div id="news_div">
-      <img src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2021-01%2Fbc750bb3-6271-48e6-a27a-5281734bfa82%2F323810045.jpg?rect=0%2C128%2C4000%2C2100&w=1200&auto=format%2Ccompress&ogImage=true" alt="">
-       <div><p>2h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-       <h4 class="hh">Gold Fights Off Rising Rates,Bitcoin to be Haven in tough Times</h4>
-       <p>Gold Fights off Risinf Rates, Bitcoin to be Haven in tough Times</p></div>
-       </div>
-       <div id="news_div">
-           <img src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2021-12/06/full/1638778503-3483.jpg" alt="">
-      <div><p>3h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-    <h4 class="hh">Gold rally slows a risk  appetite improves ; focus on Ukarine crisis</h4>
-    <p>Gold dipped on Wednesday as riskier assets bounced back, with bullion investors awaiting further developments on the Ukraine crisis</p>
-    </div>
+      <div id="news">
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2021-01%2Fbc750bb3-6271-48e6-a27a-5281734bfa82%2F323810045.jpg?rect=0%2C128%2C4000%2C2100&w=1200&auto=format%2Ccompress&ogImage=true"
+            alt="">
+          <div>
+            <p>2h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold Fights Off Rising Rates,Bitcoin to be Haven in tough Times</h4>
+            <p>Gold Fights off Risinf Rates, Bitcoin to be Haven in tough Times</p>
+          </div>
         </div>
-       <div id="news_div">
-           <img src="https://pocket-image-cache.com/direct?url=http://img.etimg.com/thumb/msid-89775043,width-1070,height-580,imgsize-103178,overlay-etmarkets/photo.jpg" alt="">
-      <div><p>5h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-          <h4 class="hh">Gold falls Rs 126, silver almost flat</h4>
-    <p>In global markets, gold prices slipped to USD 1,896 an ounce whereas silver was marginally up at USD 24.11 an ounce.</p></div>
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2021-12/06/full/1638778503-3483.jpg"
+            alt="">
+          <div>
+            <p>3h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold rally slows a risk appetite improves ; focus on Ukarine crisis</h4>
+            <p>Gold dipped on Wednesday as riskier assets bounced back, with bullion investors awaiting further
+              developments on the Ukraine crisis</p>
+          </div>
         </div>
-       <div id="news_div" >
-           <img src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2022-02/23/full/1645614351-0594.jpg" alt="">
-      <div><p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-    <h4 class="hh">Gold fights off rising rates, Bitcoin to be haven amid Ukraine tensions</h4>
-<p>Prices have surged to the highest since the start of June on escalating tensions between Russia and the West over Ukraine</p></div>
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://img.etimg.com/thumb/msid-89775043,width-1070,height-580,imgsize-103178,overlay-etmarkets/photo.jpg"
+            alt="">
+          <div>
+            <p>5h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold falls Rs 126, silver almost flat</h4>
+            <p>In global markets, gold prices slipped to USD 1,896 an ounce whereas silver was marginally up at USD
+              24.11 an ounce.</p>
+          </div>
         </div>
-       <div id="news_div">
-           
-        <img src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2018-08%2F3a8e2237-2edb-4494-bcf2-231993fb6108%2FBLOOMBERG_LOGO.png?rect=0%2C56%2C1920%2C1008&w=1200&auto=format%2Ccompress&ogImage=true" alt="">
-      <div><p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-    <h4 class="hh">Gold Advances as Mounting Ukraine Tensions Fuel Haven Demand</h4><p>
-        Gold Advances as Mounting Ukraine Tensions Fuel Haven Demand
-    </p></div>
-    </div>
-       <div id="news_div">
-     <img src="https://assets.tickertape.in/images/news-publishers/businessstandard.png" alt="">
-     <div><p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-         <h4 class="hh">S.M. Gold Ltd leads losers in 'B' group</h4>
-    <p>S.M. Gold Ltd leads losers in 'B' group</p></div>
-       </div>
-       <div  id="news_div">
-           <img src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2022-02%2F43a0bafc-1bd3-41bd-a05b-37c56985f99f%2F382030462.jpg?rect=0%2C276%2C4000%2C2100&w=1200&auto=format%2Ccompress&ogImage=true" alt="">
-      
-      <div><p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-          <h4 class="hh"> Commodities on Tenterhooks as Investors Await Next Ukraine Twist</h4>
-    <p>Commodities from gold to nickel and wheat took a calmer turn, with investors staying on alert for fresh developments in a Ukraine crisis that threatens to roil global supply chains.</p></div>  </div>
-       <div id="news_div">
-           <img src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2022-01/03/full/1641221108-2271.jpg" alt="">
-     
-     <div><p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
-         <h4 class="hh">Gold prices flat at near $1,900 as higher US yields counter safe-haven bids</h4>
-    <p>Spot gold was steady at $1,895.43 per ounce by 0731 GMT, after scaling to its highest since June 1 at $1,913.89 per ounce in volatile trade on Tuesday. U.S. gold futures GCv1 shed 0.4% to $1,899.70</p></div>   </div>
-      </div>
-       </div>
-     
-        <div class="right">
-          <p class="min">Minimum Investment Amount</p>
-          <p>₹ 5,017</p>
-          <p>Get access for free forever</p>
-          <p class="see">See more benefits</p>
-          <button class="invest">Invest Now</button><br>
-          <button class="add">Add to Wishlist</button>
-          <hr>
-          <p class="min">Share on <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-solid fa-calendar-minus"></i></p>
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2022-02/23/full/1645614351-0594.jpg"
+            alt="">
+          <div>
+            <p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold fights off rising rates, Bitcoin to be haven amid Ukraine tensions</h4>
+            <p>Prices have surged to the highest since the start of June on escalating tensions between Russia and the
+              West over Ukraine</p>
+          </div>
+        </div>
+        <div id="news_div">
 
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2018-08%2F3a8e2237-2edb-4494-bcf2-231993fb6108%2FBLOOMBERG_LOGO.png?rect=0%2C56%2C1920%2C1008&w=1200&auto=format%2Ccompress&ogImage=true"
+            alt="">
+          <div>
+            <p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold Advances as Mounting Ukraine Tensions Fuel Haven Demand</h4>
+            <p>
+              Gold Advances as Mounting Ukraine Tensions Fuel Haven Demand
+            </p>
+          </div>
         </div>
-   
-   
+        <div id="news_div">
+          <img src="https://assets.tickertape.in/images/news-publishers/businessstandard.png" alt="">
+          <div>
+            <p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">S.M. Gold Ltd leads losers in 'B' group</h4>
+            <p>S.M. Gold Ltd leads losers in 'B' group</p>
+          </div>
+        </div>
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://gumlet.assettype.com/bloombergquint%2F2022-02%2F43a0bafc-1bd3-41bd-a05b-37c56985f99f%2F382030462.jpg?rect=0%2C276%2C4000%2C2100&w=1200&auto=format%2Ccompress&ogImage=true"
+            alt="">
+
+          <div>
+            <p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh"> Commodities on Tenterhooks as Investors Await Next Ukraine Twist</h4>
+            <p>Commodities from gold to nickel and wheat took a calmer turn, with investors staying on alert for fresh
+              developments in a Ukraine crisis that threatens to roil global supply chains.</p>
+          </div>
+        </div>
+        <div id="news_div">
+          <img
+            src="https://pocket-image-cache.com/direct?url=http://bsmedia.business-standard.com/_media/bs/img/article/2022-01/03/full/1641221108-2271.jpg"
+            alt="">
+
+          <div>
+            <p>6h ago business Standard . Changes since news <span style="color: red;">0.13%</span></p>
+            <h4 class="hh">Gold prices flat at near $1,900 as higher US yields counter safe-haven bids</h4>
+            <p>Spot gold was steady at $1,895.43 per ounce by 0731 GMT, after scaling to its highest since June 1 at
+              $1,913.89 per ounce in volatile trade on Tuesday. U.S. gold futures GCv1 shed 0.4% to $1,899.70</p>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="right">
+      <p class="min">Minimum Investment Amount</p>
+      <p>₹ 5,017</p>
+      <p>Get access for free forever</p>
+      <p class="see">See more benefits</p>
+      <button class="invest">Invest Now</button><br>
+      <button class="add">Add to Wishlist</button>
+      <hr>
+      <p class="min">Share on <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-solid fa-calendar-minus"></i>
+      </p>
+
+    </div>
+
+
+  </div>
+  <div id="footer_div"></div>
 </body>
-</html> 
-<script>
-    function overveiw(){
-      var a =  document.querySelector("#overveiw")
-      
-      var b =  document.querySelector("#news")
-      var c= document.querySelector(".etf")
-      b.style="display:none"
-      a.style="display:block"
-     c.style="display:none"
-    }
 
-    function news(){
-      var a =  document.querySelector("#news")
-      var c= document.querySelector(".etf")
-     var b=document.querySelector("#overveiw")
-      b.style="display:none"
-      a.style="display:block"
-      c.style="display:none"
-    }
+</html>
+<script type="module">
+
+  // for popover-----------
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
+    // end of popover----------------
     
-    function etf(){
-      var a =  document.querySelector("#news")
-      var c= document.querySelector(".etf")
-     var b=document.querySelector("#overveiw")
-      b.style="display:none"
-      a.style="display:none"
-      c.style="display:block"
-    }
+    import {navbar,footer,popup} from "./components/navbar.js";
+
+    let navbar_div = document.getElementById("navbar_div");
+    let footer_div = document.getElementById("footer_div");
+    let popup_div = document.getElementById("popup_div");
+
+    navbar_div.innerHTML = navbar();
+    popup_div.innerHTML = popup();
+    footer_div.innerHTML = footer();
+
+  function overveiw() {
+    var a = document.querySelector("#overveiw")
+
+    var b = document.querySelector("#news")
+    var c = document.querySelector(".etf")
+    b.style = "display:none"
+    a.style = "display:block"
+    c.style = "display:none"
+  }
+
+  function news() {
+    var a = document.querySelector("#news")
+    var c = document.querySelector(".etf")
+    var b = document.querySelector("#overveiw")
+    b.style = "display:none"
+    a.style = "display:block"
+    c.style = "display:none"
+  }
+
+  function etf() {
+    var a = document.querySelector("#news")
+    var c = document.querySelector(".etf")
+    var b = document.querySelector("#overveiw")
+    b.style = "display:none"
+    a.style = "display:none"
+    c.style = "display:block"
+  }
 
 </script>
 <!-- <i class="icon-specials mr8 SmallcaseProfile__specials-icon__283Jo text-20"></i>
