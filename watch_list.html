@@ -17,7 +17,8 @@
     <div class="container pt-5 mt-5">
         <h3>Your Watchlist</h3>
         <p>Your watchlisted smallcases will appear here</p>
-        <div id="notification">
+        
+        <div id="notification">   
             <div>
                 <div>
                     <i class="fa-solid fa-bell" style="color: blue; margin-right: 20px;"></i>
@@ -31,6 +32,7 @@
             <div>
                 <div>
                     <button class="btn btn-primary">Login</button>
+                    <button id="close_btn" type="button" class="btn pt-0 mt-0 mb-5">X</button>
                 </div>
             </div>
         </div>
@@ -74,5 +76,12 @@
     navbar_div.innerHTML = navbar();
     footer_div.innerHTML = footer();
     popup_div.innerHTML = popup();
+
+    let notification_div = document.getElementById("notification");
+    let close_btn = document.getElementById("close_btn");
+    
+    close_btn.addEventListener("click", ()=>{
+        notification_div.style.display = "none";
+    })
 
 </script>
