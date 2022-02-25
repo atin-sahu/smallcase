@@ -1,0 +1,118 @@
+
+#side>video{
+    height:600px;
+    width:600px;
+}
+
+#conatiner{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+#main{
+    margin-left:80px;
+    margin-top:100px;
+}
+#main>h1{
+    font-size:60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height:60px;
+}
+#main>p{
+    color:gray;
+    font-size:20px;
+}
+#aman{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:5px;
+    width:1200px;
+    margin-left:80px;
+}
+#aman1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width:250px;
+    height:130px;
+    background-color:white;
+    margin-left:10px;
+}
+#stamp{
+    margin-top:20px;
+}
+#try{
+    color: grey;
+}
+#first{
+    margin-left:250px;
+}
+#ven{
+    margin-top:50px;
+}
+#treat{
+    margin-right:300px;
+}
+#rat{
+    width:50px;
+}
+#cat{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  margin-top:90px;
+}
+#cat1>img{
+  border-radius:50%;
+  margin-left:400px;
+}
+#cat2>h5{
+    margin-right:250px;
+    color: grey;
+}
+#aman3{
+    margin-top:100px;
+}
+#cash{
+    display:grid;
+    grid-template-columns:20% 30% 50%;
+    margin-bottom:50px;
+}
+#cash1{
+    margin-left:110px;
+    font-size:40px;
+}
+#cash2{
+    margin-right:440px;
+    margin-top:150px;
+    width:600px;
+}
+#cash3{
+    margin-left:110px;
+    color: gray;
+}
+#count{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    background-color:black;
+    color: white;
+    height:200px;
+}
+#count1{
+   margin-left:120px;
+   margin-top:60px;
+   font-size:30px;
+}
+#count2{
+    margin-left:120px;
+}
+#collect{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    height:150px;
+    width:1200px;
+    margin-left:80px;
+}
+#collect1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#collect1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-left:40px;
+}
