@@ -1,0 +1,99 @@
+#container{
+    display: flex;
+    width: 100%;
+}
+#left_fillter{
+    flex: 3;
+    
+    
+}
+#right_content{
+    flex: 8;
+    
+   
+    
+}
+
+
+#fillter_div{
+    
+    display: flex;
+    justify-content: space-around;
+}
+#count{
+    padding: 0px 7px 0px 7px;
+    background-color: rgba(104, 104, 104, 0.144);
+    border-radius: 4px;
+}
+#fillter_count{
+    font-size: 16px;
+}
+#fillter_div2{
+    margin: 0px 20px 0px 20px;
+}
+#clear_btn{
+    border: 0px;
+    font-weight: bold;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.596);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#Subscription_Type{
+    margin-bottom: 7px;
+    color: rgba(0, 0, 0, 0.685) ;
+}
+
+#type_div{
+    display: flex;
+    
+}
+.type_div_1{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    width: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.685);
+}
+.type_div_1:hover{
+    border: 1px solid rgb(52, 174, 255);
+    color:rgb(52, 174, 255) ;
+    cursor: pointer;
+}
+
+.checkbox1{
+    margin-bottom: 8px;
+}
+
+.checkbox1,label{
+    font-size: 13px;
+}
+#Volatility{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Volatility_box{
+    padding: 5px;
+    width: 55px;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    text-align: center;
+    border-radius: 4px;
+}
+.p2{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    color: rgba(128, 128, 128, 0.733);
+}
+
+#list_div:hover{
+ border: 1px solid rgba(128, 128, 128, 0.602);
+}
+#list_div{
+    cursor: pointer;
+}
+

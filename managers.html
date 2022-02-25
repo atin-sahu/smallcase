@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fa6b950247.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style/main.css">
+<link rel="stylesheet" href="managers.css">
+<style>
+    *{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+</style>
+</head>
+<body >
+<div id="main">
+    <div id="navbar-div">
+
+    </div>
+
+
+     <div id="top-component">
+     
+    </div>
+
+
+<!-- all detail below the navbar  -->
+    <div id="container">
+        <div id="fillter_box">
+            <div id="fillter_div">
+            <div id="fillter_count">Fillter
+                <span id="count">0</span>
+            </div>
+            <div><button id="clear_btn">Clear All</button></div>
+        </div>
+        
+        <hr style="margin: 20px; ">
+
+
+        <div id="checkbox_div">
+            <h6 style="margin-bottom: 10px;">Investment Strategy
+            </h6>
+            <input type="checkbox" class="vehicle1" name="box1" value="Bike">
+            <label for="box1">Asset Allocation</label><br>
+            <input type="checkbox" class="vehicle1" name="box2" value="Bike">
+            <label for="box2">Corporate Governance</label><br>
+            <input type="checkbox" class="vehicle1" name="box3" value="Bike">
+            <label for="box3">Divided</label><br>
+            <input type="checkbox" class="vehicle1" name="box4" value="Bike">
+            <label for="box4">ESG</label><br>
+            <input type="checkbox" class="vehicle1" name="box5" value="Bike">
+            <label for="box5">Factor Investing</label><br>
+            <input type="checkbox" class="vehicle1" name="box6" value="Bike">
+            <label for="box6">Fundamental</label><br>
+            <input type="checkbox" class="vehicle1" name="box7" value="Bike">
+            <label for="box7">Goal Based</label><br>
+            <input type="checkbox" class="vehicle1" name="box8" value="Bike">
+            <label for="box8">Momentum</label><br>
+            <input type="checkbox" class="vehicle1" name="box9" value="Bike">
+            <label for="box9">Quality</label><br>
+            <input type="checkbox" class="vehicle1" name="box10" value="Bike">
+            <label for="box10">Quantamental</label><br>
+            <input type="checkbox" class="vehicle1" name="box11" value="Bike">
+            <label for="box11">Quantitativ</label><br>
+            <input type="checkbox" class="vehicle1" name="box12" value="Bike">
+            <label for="box12">Sector Tracker</label><br>
+            <input type="checkbox" class="vehicle1" name="box13" value="Bike">
+            <label for="box13">Technical</label><br>
+            <input type="checkbox" class="vehicle1" name="box14" value="Bike">
+            <label for="box14">Thematic</label><br>
+            <input type="checkbox" class="vehicle1" name="box15" value="Bike">
+            <label for="box15">Growth</label><br>
+            <input type="checkbox" class="vehicle1" name="box16" value="Bike">
+            <label for="box16">Value</label><br>
+            
+        </div>
+        </div>
+        <div id="content_item">
+            
+        </div>
+        
+    </div>
+    
+    <div style="padding-left: 285px;">
+        <br>
+        <hr>
+        <h5 style="text-align: center; color: rgb(55, 172, 207); cursor: pointer;">Load more managers ▼</h5>
+        <hr>
+        <br>
+    </div>
+</div>
+    
+</body>
+</html>
+<script type="module">
+
+import {mini_navbar} from "./components/below-navbar.js"
+console.log(mini_navbar())
+
+document.querySelector("#top-component").innerHTML=mini_navbar()
+
+
+
+// constructor obj create
+
+let arr=[]
+
+function box(n,b,i,d,m){
+    this.name=n
+    this.by=b
+    this.image=i
+    this.dis=d
+    this.more=m
+}
+
+let b1= new box("Windmill Capital","Manages 52 smallcases","https://assets.smallcase.com/images/publishers/smallcaseHQ/logo.png","We’re SEBI registered research analyst creating Thematic & Quantamental model portfolios since 2016. Data analysis is the heart and soul behind our portfolio…","13+ more")
+let b2= new box("Wright Research","Manages 11 smallcases","	https://assets.smallcase.com/images/publishers/wright-research/logo.png","Smart beta-based investment strategies backed by quantitative research.","4+ more")
+let b3= new box("Adroit Financial Services","Manages 3 smallcases","	https://assets.smallcase.com/images/publishers/adroit-financial/logo.png","Adroit Financial Services Pvt. Ltd. (Adroit) is one of India's leading financial market services company, providing a bouquet of capital market services including securities…","3+ more")
+let b4= new box("Niveshaay","Manages 5 smallcases","https://assets.smallcase.com/images/publishers/niveshaay/logo.png","Niveshaay is a SEBI Registered Investment Advisory Firm with a Dedicated Research Team specializing in unearthing high quality undervalued stocks. We focus…","6+ more")
+let b5= new box("Green Portfolio","Manages 7 smallcases","	https://assets.smallcase.com/images/publishers/greenportfolio/logo.png","Wealth Creation through a strong fundamental research and disciplined investing. Top performing research house!","8+ more")
+let b6= new box("Omkara Capital","Manages 2 smallcases","	https://assets.smallcase.com/images/publishers/omkara-capital/logo.png","Omkara Capital is a SEBI Registered Research Analyst providing stock research services to Retail and HNI clients. We aim to be, for serious investors, the equity…","5+ more")
+let b7= new box("Lotusdew Wealth","Manages 4 smallcases","	https://assets.smallcase.com/images/publishers/lotusdew/logo.png","This portfolio is not available for US persons, including US citizens and residents. The portfolio represented herein is available only to Indian residents. For US…","6+ more")
+let b8= new box("Stellar Wealth","Manages 3 smallcases","	https://assets.smallcase.com/images/publishers/stellar-wealth/logo.png","Stellar Wealth Partners Private Limited is a SEBI registered Research Analyst firm with focus on fundamental research based model portfolios. Our goal…","2+ more")
+let b9= new box("Negen Capital","Manages 2 smallcases","	https://assets.smallcase.com/images/publishers/negen-capital/logo.png","Value+Growth investing, Demergers, Internet (Technology) companies. Goal is to create Alpha with new thinking and focused investing.","1+ more")
+let b10= new box("Ethical Advisers","Manages 19 smallcases","https://assets.smallcase.com/images/publishers/ethicaladvisers/logo.png","Founded by Mr Dick Mody, a 30 year veteran in the global financial markets , we are a one-stop-shop IFA firm offering a wide range of financial solutions to…","3+ more")
+
+arr.push(b1)
+arr.push(b2)
+arr.push(b3)
+arr.push(b4)
+arr.push(b5)
+arr.push(b6)
+arr.push(b7)
+arr.push(b8)
+arr.push(b9)
+arr.push(b10)
+console.log(arr)
+// ----------------------------------------------------------------------------------------
+
+
+
+
+// mapping boxes
+arr.map((item)=>{
+
+    let item_container=document.querySelector("#content_item")
+    let box_div=document.createElement("div")
+    
+
+    let box_div_flex=document.createElement("div")
+    box_div_flex.style.display="flex"
+    box_div_flex.style.justifyContent="space-between"
+    let text_div=document.createElement("div")
+    let name=document.createElement("h5")
+    name.style.margin="0px"
+    name.textContent=item.name
+    let by=document.createElement("p")
+    by.style.marginTop="0px"
+    by.style.fontSize="5px"
+    by.textContent=item.by
+    text_div.append(name,by)
+   
+
+
+    let image_div=document.createElement("div")
+    image_div.style.width="100px"
+    let image=document.createElement("img")
+    image.style.width="100%"
+    image_div.append(image)
+    image.src=item.image
+
+    box_div_flex.append(text_div,image_div)
+
+
+
+    let dis_box=document.createElement("div")
+    let dis=document.createElement("p")
+    dis.textContent=item.dis
+    dis.style.fontSize="11px"
+    dis.style.color="rgba(128, 128, 128, 5.42)"
+    dis_box.append(dis)
+    
+
+    let lower_div=document.createElement("div")
+    lower_div.style.display="flex"
+    lower_div.style.alignItems="center"
+    lower_div.style.justifyContent="space-around"
+    lower_div.style.height="20px"
+
+    let lower_box=document.createElement("div")
+    let icon=document.createElement("i")
+    icon.style.color="rgba(128, 128, 128, 0.942)"
+    icon.className="fa-solid fa-arrow-trend-up"
+     let icon_text=document.createElement("h6")
+     icon_text.textContent="Trending-Growth"
+     icon_text.style.color="rgba(128, 128, 128, 0.942)"
+     lower_box.style.display="flex"
+     lower_box.style.backgroundColor="rgba(128, 128, 128, 0.192)"
+     lower_box.style.borderRadius="5px"
+     lower_box.style.alignItems="center"
+     lower_box.style.height="100%"
+     lower_box.style.padding="5px"
+     lower_box.append(icon,icon_text)
+    let more=document.createElement("more")
+    more.style.fontSize="10px"
+    more.textContent=item.more
+    lower_div.append(lower_box,more)
+
+
+
+     
+    box_div.append(box_div_flex,dis_box,lower_div)
+    box_div.style.padding="10px"
+    box_div.style.border="1px solid rgba(128, 128, 128, 0.342)"
+    box_div.style.borderRadius="5px"
+    box_div.id="box_div"
+    item_container.append(box_div)
+
+})
+
+</script>

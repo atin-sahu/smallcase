@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fa6b950247.js" crossorigin="anonymous"></script>
+<style>
+    *{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="style/main.css">
+<link rel="stylesheet" href="all-smallcase.css">
+
+</head>
+<body >
+<div id="main">
+    <div id="navbar-div">
+    </div>
+    <div id="top-component">
+    </div>
+
+
+
+    <div id="container">
+
+        <div id="left_fillter">
+
+            <div id="fillter_div">
+                <div id="fillter_count">Fillter
+                    <span id="count">0</span>
+                </div>
+                <div><button id="clear_btn">Clear All</button></div>
+            </div>
+            <hr style="margin: 20px; ">
+            <!-- ------------------------------------------------------------>
+            <div id="fillter_div2">
+
+                <div id="heading_div">
+                    <h6 id="Subscription_Type">
+                        Subscription Type
+                    </h6>
+                </div >
+
+
+            <div id="type_div">
+                <div class="type_div_1">Show all</div>
+                <div class="type_div_1">Free access</div>
+                <div class="type_div_1">Fee based</div>
+            </div>
+
+
+            <div id="price_fillter">
+              <h6 style="margin-bottom: 5px;  color: rgba(0, 0, 0, 0.685) ;">Investment Amount</h6>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Any</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Under ₹ 5,000</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Under ₹ 25,000</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Under ₹ 50,000</label><br>
+            </div>
+
+
+
+
+            <h6 style="margin-bottom:8px;color: rgba(0, 0, 0, 0.685) ;">Volatility</h6>
+            <div id="Volatility">
+                <div class="Volatility_box">
+                    <i style="color: rgb(10, 158, 59);"  class="fa-solid fa-record-vinyl"></i>
+                    <p class="p2">Low</p>
+                </div>
+                <div class="Volatility_box">
+                    <i style="color: rgb(218, 188, 22);"  class="fa-solid fa-record-vinyl"></i>
+                    <p class="p2">Medium</p>
+                </div>
+                <div class="Volatility_box">
+                    <i style="color: rgb(204, 47, 47);"  class="fa-solid fa-record-vinyl"></i>
+                    <p class="p2">High</p>
+                </div>
+            </div>
+
+
+
+            <h6 style="margin-bottom: 8px;color: rgba(0, 0, 0, 0.685) ;">Launch Date</h6>
+            <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Include new smallcases</label><br>
+
+
+
+              <h6 style="margin-bottom:8px ; color: rgba(0, 0, 0, 0.685) ;">Investment Strategy</h6>
+
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Asset Allocation</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Corporate Governance</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Divided</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">ESG</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Factor Investing</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Fundamental</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Goal Based</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Momentum</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Quality</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Quantamental</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Quantitativ</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Sector Tracker</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Technical</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Thematic</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Growth</label><br>
+              <input type="checkbox" class="checkbox1" name="check1" >
+              <label for="check1">Value</label><br>
+
+
+            <!-- -------------------------------------------------------------------->
+               </div>
+        </div>
+        
+       
+
+
+
+        <div id="right_content">
+
+         
+
+        </div>
+    
+    </div>
+</div>
+
+    
+</body>
+</html>
+<script type="module">
+
+import {mini_navbar} from "./components/below-navbar.js"
+console.log(mini_navbar())
+
+document.querySelector("#top-component").innerHTML=mini_navbar()
+
+
+
+// cunstructor obj create
+
+let arr=[]
+
+function obj(n,i,d,b,a,c,v){
+    this.name=n
+    this.image=i
+    this.dis=d
+    this.by=b
+    this.amount=a
+    this.cagr=c
+    this.vol=v
+}
+
+let b1=new obj("Dividend Aristocrats","https://assets.smallcase.com/images/smallcases/200/SCMO_0014.png","by Windmill Capital","Companies that hvae been consistently increasing dividends.Extra goodness","₹40,000","20.70%","Med. Volatility")
+let b2=new obj("Dividend Stars","https://assets.smallcase.com/images/smallcases/200/SCMO_0013.png","by Windmill Capital","High dividend yeild compaines with a track record of not cutting dividends","₹30,000","22.10%","Med. Volatility")
+let b3=new obj("Growth & Income","	https://assets.smallcase.com/images/smallcases/200/SCMO_0026.png","by Windmill Capital","Efficicntly managed dividend paying companies screened using Kevin Matras' criteria","₹27,000","20.11%","Med. Volatility")
+let b4=new obj("Listed Venture Capital","https://assets.smallcase.com/images/smallcases/200/LTDMO_0001.png","by Windmill Capital","Venture Capital style investments into small listed companies with quality governance board & quality..","₹27,400","56.79%","Low Volatility")
+let b5=new obj("High Dividend Yield ","https://assets.smallcase.com/images/smallcases/200/GPRMO_0004.png","by Windmill Capital","Invest in High Dividend Yield and Growth Stocks","₹41,000","60.81%","High Volatility")
+let b6=new obj("Ommi Super Dividend","https://assets.smallcase.com/images/smallcases/200/AEIMO_0003.png","by Windmill Capital","A portfolio of SuperNormal companies with SuperNormal Dividend Yield","₹10,000","4.17%","Low Volatility")
+let b7=new obj("All IN 1","	https://assets.smallcase.com/images/smallcases/200/OMNMO_0005.png","by Windmill Capital","Low cost flexible mandate portfolio to survive market ups & downs while delivering alpha","₹76,000","32.70%","Med. Volatilty")
+let b8=new obj("Handipicked PSU Gems","https://assets.smallcase.com/images/smallcases/200/TEQNM_0001.png","by Windmill Capital","Dominant, highly profitable and deeply undervalued PSUs","₹49,000","21.52%","High Volatility")
+let b9=new obj("The Rising Superstars","https://assets.smallcase.com/images/smallcases/200/KAIMO_0001.png","by Windmill Capital","Multicap portfolio comprising of mid and small caps that are likely to graduate into largecaps","₹37,000","33.30%","Med. Volatility")
+let b10=new obj("Kairos Compounders","https://assets.smallcase.com/images/smallcases/200/EHAMO_0003.png","by Windmill Capital","An actively managed equity portfolio designed for patient investors with a time horizon of 10+ years","₹60,000","28.72%","Low Volatility")
+
+
+arr.push(b1)
+arr.push(b2)
+arr.push(b3)
+arr.push(b4)
+arr.push(b5)
+arr.push(b6)
+arr.push(b7)
+arr.push(b8)
+arr.push(b9)
+arr.push(b10)
+console.log(arr)
+
+
+
+arr.map((item)=>{
+     
+     let right_content=document.querySelector("#right_content")
+
+
+
+
+   let list_div=document.createElement("div")
+   list_div.id="list_div"
+   
+   list_div.style.height="140px"
+   list_div.style.width="100%"
+
+   let hr=document.createElement("hr")
+   hr.style.margin="0px"
+
+   right_content.append(list_div,hr)
+
+   let div_mini=document.createElement("div")
+   div_mini.style.width="100%"
+   div_mini.style.padding="15px"
+   div_mini.style.display="flex"
+
+   let img_div=document.createElement("div")
+   img_div.style.width="10%"
+
+   let image=document.createElement("img")
+   image.src=item.image
+   image.style.width="80%"
+
+   img_div.append(image)
+  
+   
+
+   let text_div=document.createElement("div")
+   text_div.style.display="flex"
+
+   let text_div_left=document.createElement("div")
+   text_div_left.style.width="40%"
+   let name=document.createElement("h4")
+   name.style.margin="0px"
+   name.textContent=item.name
+   let by=document.createElement("p")
+   by.textContent=item.by
+   by.style.fontSize="12px"
+   let dis=document.createElement("p")
+   dis.textContent=item.dis
+   dis.style.fontSize="8px"
+   dis.style.color="gray"
+
+   let text_div_right=document.createElement("div")
+   text_div_right.style.display="flex"
+   text_div_right.style.justifyContent="space-between"
+   text_div_right.style.alignItems="center"
+   let amount=document.createElement("p")
+   amount.textContent=`Min. Amount:  ${item.amount}`
+   amount.style.fontSize="12px"
+   amount.style.fontWeight="bold"
+   let cagr=document.createElement("p")
+   cagr.textContent=`CAGR:- ${item.cagr}`
+   cagr.style.fontSize="16px"
+   cagr.style.marginLeft="30px"
+   cagr.style.color="rgb(70, 192, 0)"
+   cagr.style.fontWeight="bold"
+   let vol=document.createElement("p")
+   vol.textContent=item.vol
+   vol.style.fontSize="12px"
+
+   text_div_left.append(name,dis,by)
+   text_div_right.append(amount,cagr)
+
+   text_div.append(text_div_left,text_div_right)
+   div_mini.append(img_div,text_div)
+   list_div.append(div_mini)
+
+
+
+
+
+
+
+})
+
+
+
+
+</script>
