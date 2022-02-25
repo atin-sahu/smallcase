@@ -1,0 +1,63 @@
+#container{
+    display: flex;
+}
+
+#fillter_box{
+    flex: 3;
+    
+    margin: 0px 8px 0px 8px;
+   
+}
+#fillter_div{
+    
+    display: flex;
+    justify-content: space-around;
+}
+#count{
+    padding: 0px 7px 0px 7px;
+    background-color: rgba(104, 104, 104, 0.144);
+    border-radius: 4px;
+}
+#fillter_count{
+    font-size: 16px;
+}
+#clear_btn{
+    border: 0px;
+    font-weight: bold;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.596);
+    font-size: 14px;
+    cursor: pointer;
+}
+#checkbox_div{
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.vehicle1{
+    margin-bottom: 15px;
+}
+
+.vehicle1,label{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.924);
+}
+
+
+
+
+#content_item{
+    flex: 8;
+  
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 30px;
+   margin-left: 10px;
+}
+#box_div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+#riyaz{
+    color: rgba(128, 128, 128, 0.342);
+}

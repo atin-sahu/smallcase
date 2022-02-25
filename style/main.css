@@ -1,0 +1,29 @@
+#main{
+    margin: 0% 7% 0% 7%;
+}
+
+    #below-navbar{
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+
+    }
+
+    #left-side a{
+       margin-left: 20px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.65);
+    }
+    #left-side a:hover{color: rgb(43, 133, 236);}
+    #search-bar{
+        height: 40px;
+        width: 300px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+    }
+    #myhr{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
