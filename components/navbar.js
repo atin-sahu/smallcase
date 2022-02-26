@@ -1,7 +1,7 @@
 function navbar(){
     return `<nav class="navbar navbar-expand-lg navbar-light mb-0 pb-0 fixed-top bg-white border-bottom">
     <div class="container">
-        <a class="navbar-brand text-primary" href="#">
+        <a class="navbar-brand text-primary" href="smallcase.html">
             <div class="d-flex mt-2">
                 <img style="width: 100%; height: 40px;" src="https://smallcases.upstox.com/assets/favicon/ms-icon-310x310.png" alt="logo">
                 <p>smallcase</p>
@@ -25,7 +25,7 @@ function navbar(){
           <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">For Business</a>
+                    <a class="nav-link" href="Aman.html">For Business</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +83,7 @@ function footer (){
                     <div class="col-4">
                         <p class="fw-bolder">Company</p>
                         <a href="about.html" class="text-dark text-decoration-none"><p class="m-0">About</p></a>
-                        <a href="about.html" class="text-dark text-decoration-none"><p class="m-0">For Businesses</p></a>
+                        <a href="Aman.html" class="text-dark text-decoration-none"><p class="m-0">For Businesses</p></a>
                         <p class="m-0">Blog</p>
                         <p class="m-0">Press</p>
                         <p class="m-0">Careers</p>

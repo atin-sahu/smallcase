@@ -241,6 +241,9 @@
     let btn_left = document.createElement("button")
     btn_left.id = "btn_left"
     btn_left.textContent = "Start Here"
+    btn_left.addEventListener("click", ()=>{
+        window.location.href = "brand.html";
+    })
     btn_left.style.height = "40px"
     btn_left.style.width = "105px"
     btn_left.style.border = "0px"
@@ -369,6 +372,9 @@
 
     let div2_btn = document.createElement("button")
     div2_btn.textContent = "Learn More"
+    div2_btn.addEventListener("click", ()=>{
+        window.location.href = "All weather.html";
+    })
     div2_btn.style.border = "0px"
     div2_btn.style.height = "30px"
     div2_btn.style.width = "100px"
