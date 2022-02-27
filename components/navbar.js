@@ -306,7 +306,7 @@ function popup(){
                         <label for="floatingInput">10 digit number</label>
                     </div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Continue</button>
+                        <button onclick="alert('successfully loged in')" class="btn btn-primary" type="button">Continue</button>
                       </div>
                 </div>
             </div>

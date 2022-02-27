@@ -247,7 +247,7 @@
   }
   .t1 {
     display: inline-block;
-    width: 58%;
+    width: 70%;
     height: 100%;
 
     vertical-align: top;
@@ -387,6 +387,9 @@ border-radius: 10px;
    .Icon_Div{
        display:flex;
        margin-left:0px;
+   }
+   .icon_catch{
+     margin-right: 60px;
    }
    .Asst_Thor2{
        width:90%;
