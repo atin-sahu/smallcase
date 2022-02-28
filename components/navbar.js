@@ -1,7 +1,7 @@
 function navbar(){
     return `<nav class="navbar navbar-expand-lg navbar-light mb-0 pb-0 fixed-top bg-white border-bottom">
     <div class="container">
-        <a class="navbar-brand text-primary" href="smallcase.html">
+        <a class="navbar-brand text-primary" href="index.html">
             <div class="d-flex mt-2">
                 <img style="width: 100%; height: 40px;" src="https://smallcases.upstox.com/assets/favicon/ms-icon-310x310.png" alt="logo">
                 <p>smallcase</p>
