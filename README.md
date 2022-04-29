@@ -49,4 +49,10 @@ If you have any feedback, please reach out to us at jayshiv7171@gmail.com
 
 
 
+## Screenshots
 
+![Screenshot (214)](https://user-images.githubusercontent.com/97458162/165894756-2bd98625-3295-4af9-9224-b1a18d5acce9.png)
+
+
+
+![Screenshot (213)](https://user-images.githubusercontent.com/97458162/165894768-3341b426-4d57-4963-844e-e598e51083d6.png)
